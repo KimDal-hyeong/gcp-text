@@ -3,5 +3,8 @@
   "name": "express",
   "builds": [
     { "src": "**/*.js", "use": "@now/node" }
-  ]
+  ],
+  "env": {
+    "MY_VARIABLE": "@my-variable"
+  }
 }
